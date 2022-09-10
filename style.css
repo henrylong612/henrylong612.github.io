@@ -1,2 +1,19 @@
+a {
+    color:rgb(0, 102, 255);
+    text-decoration:none;
+}
 
+a:hover {
+    text-decoration:underline;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      font-size:small;
+    }
+  }
 
