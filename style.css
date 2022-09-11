@@ -11,15 +11,6 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      font-size:small;
-    }
-    img {
-        width:100%
-    }
-  }
-
 th {
     text-align: left;
 }
@@ -51,15 +42,24 @@ th {
 }
 
 .left {
-    width: 22%; height: 100px; float: left;
+    width: 20%; height: 100px; float: left;
 }
 
 .right {
-    margin-left: 22%; height: 100px;
-    margin-right: 11%;
+    margin-left: 20%; height: 100px;
+    margin-right: 10%;
     
 }
 
 .indent {
     margin-left: 0.5in;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      font-size:small;
+    }
+    img {
+        width:100%
+    }
+  }
