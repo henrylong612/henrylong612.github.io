@@ -57,12 +57,8 @@ th {
 
 @media only screen and (max-width: 600px) {
     
-    .left {
+    body {
         width:100%
-    }
-    .right{
-        margin-left: 2%;
-        margin-right: 2%;
     }
     img {
         width:100%
