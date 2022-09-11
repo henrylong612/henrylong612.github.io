@@ -58,8 +58,7 @@ th {
 @media only screen and (max-width: 600px) {
     
     body {
-        width:100%;
-        font-size: large;
+        font-size: 1em;
     }
     img {
         width:100%
