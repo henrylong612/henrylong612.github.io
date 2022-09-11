@@ -15,10 +15,13 @@ body {
     body {
       font-size:small;
     }
+    img {
+        width:100%
+    }
   }
 
-.margin {
-    
+th {
+    text-align: left;
 }
 
 
