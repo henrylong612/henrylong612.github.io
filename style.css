@@ -66,5 +66,7 @@ th {
 }
 
 @media screen and (max-height: 450px) {
-    .left {padding-top: 15px;}
+    .left {
+        display: none;
+    }
   }
