@@ -39,28 +39,33 @@ th {
 
 .center {
     width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .left {
-    width: 20%; height: 100px; float: left;
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
 }
 
 .right {
-    margin-left: 20%; height: 100px;
-    margin-right: 10%;
-    
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;  
 }
 
 .indent {
     margin-left: 0.5in;
 }
 
-@media only screen and (max-width: 600px) {
-    
-    body {
-        font-size: larger;
-    }
-    img {
-        width:100%;
-    }
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
   }
