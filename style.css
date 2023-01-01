@@ -45,7 +45,7 @@ th {
 }
 
 .left {
-    width: 130px;
+    width: 200px;
     position: fixed;
     z-index: 1;
     top: 20px;
@@ -53,10 +53,11 @@ th {
     background: #eee;
     overflow-x: hidden;
     padding: 8px 0;
+    font-size: 18px;
 }
 
 .right {
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    margin-left: 210px; /* Same width as the sidebar + left position in px */
     padding: 0px 10px;  
 }
 
